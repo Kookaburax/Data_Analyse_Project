@@ -1,0 +1,15 @@
+{
+  "rules": {
+    "name": {
+      "type": "length",
+      "min_length": 3
+    },
+    "email_unique": {
+      "type": "unique"
+    },
+    "email_regex": {
+      "type": "regex",
+      "pattern": "^[\\w\\.-]+@[\\w\\.-]+\\.\\w+$"
+    }
+  }
+}
